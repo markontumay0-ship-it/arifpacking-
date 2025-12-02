@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Arif Packing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="asset/favicon.png">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-ring"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">AP</div>
+                    <span class="logo-text">Arif<span class="logo-highlight">Packing</span></span>
+                </a>
+                
+                <nav class="main-nav">
+                    <button class="nav-toggle" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="services.html" class="nav-link">Services</a></li>
+                        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <button class="theme-toggle" aria-label="Toggle night mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content animate-fade-up">
+                    <h1 class="hero-title">Let's Build Packaging That Makes Your Product Stand Out</h1>
+                    <p class="hero-subtitle">Questions? Orders? Ideas? We're here to help.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info animate-fade-up">
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="contact-text">Tell us what you need—box design, poly bag, wrapper, sticker, or something custom—and we'll reply with clear pricing and timeline.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3>Address</h3>
+                                    <p>Bole, Cameroon St., Addis Ababa, Ethiopia</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3>Email</h3>
+                                    <p>arifpacking@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3>Phone</h3>
+                                    <p>+251 973 554 040</p>
+                                    <p>+251 940 595 659</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3>Business Hours</h3>
+                                    <p>Monday–Saturday, 8:00 AM – 6:00 PM</p>
+                                    <p>Support: 24/7 call availability</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <h3>Connect With Us</h3>
+                            <div class="social-links">
+                                <a href="https://t.me/Arifpackinget" target="_blank" class="social-link">
+                                    <i class="fab fa-telegram"></i>
+                                    <span>Telegram</span>
+                                </a>
+                                <a href="https://www.tiktok.com/@arifpackinget" target="_blank" class="social-link">
+                                    <i class="fab fa-tiktok"></i>
+                                    <span>TikTok</span>
+                                </a>
+                                <a href="https://www.facebook.com/share/1WUSzhRyRy/?mibextid=wwXIfr" target="_blank" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container animate-fade-up delay-100">
+                        <h2 class="section-title">Send Us a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Service Interested In</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="custom-box">Custom Box Design</option>
+                                    <option value="flexible-packaging">Flexible Packaging</option>
+                                    <option value="stickers-labels">Stickers & Labels</option>
+                                    <option value="paper-packaging">Paper Packaging</option>
+                                    <option value="mockups">Professional Mockups</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Project Details *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project, quantity requirements, timeline, and any specific needs..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                        </form>
+                        
+                        <div id="formMessage" class="form-message" style="display: none;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark-section">
+            <div class="container">
+                <div class="final-cta animate-fade-up">
+                    <h2 class="cta-title">Let's create packaging that sells your product.</h2>
+                    <p class="cta-text">Send us your requirements today and get a free consultation.</p>
+                    <a href="#contactForm" class="btn btn-outline btn-large">Start Your Project Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="index.html" class="footer-logo">
+                        <div class="logo-icon">AP</div>
+                        <span class="logo-text">Arif<span class="logo-highlight">Packing</span></span>
+                    </a>
+                    <p class="footer-text">Premium packaging solutions that elevate your brand and increase customer trust.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-heading">Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="https://t.me/Arifpackinget" target="_blank" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@arifpackinget" target="_blank" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://www.facebook.com/share/1WUSzhRyRy/?mibextid=wwXIfr" target="_blank" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">Copyright © 2025 Arif Packing PLC. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
